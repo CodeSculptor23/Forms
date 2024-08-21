@@ -1,0 +1,113 @@
+body{
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(121, 32, 153, 1) 86%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Popinns', sans-serif;
+}
+
+#form{
+    width: 400px;
+    margin: 20vh auto 20vh;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+ 
+
+}
+#table{
+    width: fit-content;
+    margin: 20vh auto 20vh;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+ 
+
+}
+h1{
+    text-align: center;
+    color: #792099;
+}
+
+#form button{
+    background-color: #792099;
+    color: white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34, 193, 195)
+
+}
+
+.input-group input:focus{
+    outline: 0;
+
+}
+
+.error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    border-color: #0cc477;
+
+
+}
+.input-group.fail input{
+    border-color: red;
+}
+
+
+.table-container {
+    width: 80%;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #8c0093;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
